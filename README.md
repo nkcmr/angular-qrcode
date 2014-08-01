@@ -6,21 +6,28 @@ this library uses a `<canvas>` to draw the qr code, and since the `<canvas>` ele
 ### install
 there are two usable files in this repo. `lib/qr-code.js` is an unminified version and should be used in development, and `build/qr-code.min.js` is minified and is suitable for production. to get started just throw your choice into a `<script>` tag:
 
-    <script type="application/javascript" src="/path/to/qr-code.min.js">
+```html
+<script type="application/javascript" src="/path/to/qr-code.min.js">
+```
 
 and lastly, **be sure** to include it somewhere in your module definition:
 
-    angular.module('myApp', ['qrcode']);
-    
+```javascript
+angular.module('myApp', ['qrcode']);
+```
 
 ### usage
 using angular-qrcode couldn't be more simple. simply create a tag like this:
 
-    <qrcode size="200" data="i am a lovely qr-code"></qrcode>
+```html
+<qrcode size="200" data="i am a lovely qr-code"></qrcode>
+```
     
 and if you want auto-updating qr codes be sure to put your scope member in template delimiters:
 
-    <qrcode size="{{ qr_code_size }}" data="{{ qr_code_data }}"></qrcode>
+```html
+<qrcode size="{{ qr_code_size }}" data="{{ qr_code_data }}"></qrcode>
+```
     
 
 ### api
