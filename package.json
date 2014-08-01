@@ -1,0 +1,32 @@
+{
+  "name": "angular-qrcode",
+  "version": "0.2.0",
+  "description": "an angular module used to generate qr codes in the browser",
+  "main": "lib/qr-code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nkcmr/angular-qrcode"
+  },
+  "keywords": [
+    "qr",
+    "code",
+    "qrcode",
+    "angular",
+    "browser",
+    "canvas"
+  ],
+  "author": "nick comer (@nkcmr)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nkcmr/angular-qrcode/issues"
+  },
+  "homepage": "https://github.com/nkcmr/angular-qrcode",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-uglify": "^0.5.1",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
